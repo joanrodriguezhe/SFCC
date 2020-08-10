@@ -1,0 +1,34 @@
+<div class="container border pagos my-3" data-aos="flip-down">
+    <br>
+    <div class="row">
+        <div class="col-md-3 border-left border-primary">
+            <h5>Paga cómodo y seguro</h5>
+            <label>con Mercado Pago</label>
+        </div>
+        <div class="col-md-3 border-left">
+            <h5>Hasta 12 meses sin intereses con:</h5>
+            <a href="#">Ver condiciones</a>
+        </div>
+        <div class="col-md-3 border-right">
+            <div class="d-flex justify-content-center align-items-center">
+                <img class="mr-3" width="15%" src="${URLUtils.staticURL('/images/card.png')}">
+                <div>
+                    <h5>Mercado Libre</h5>
+                    <label>INVEX</label>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="row d-flex justify-content-center align-items-center">
+
+                <img class="mr-3" width="20%" src="${URLUtils.staticURL('/images/ver-mas.svg')}">
+                <div>
+                    <h5>Más medios de pago</h5>
+                    <label>Ver todos</label>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <br>
+</div>

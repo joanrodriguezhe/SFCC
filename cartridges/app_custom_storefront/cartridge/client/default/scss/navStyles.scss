@@ -1,0 +1,48 @@
+.logo {
+  width: 150px;
+}
+
+.logo-small {
+  width: 40px;
+}
+
+.site-search input {
+  border-radius: 25px;
+}
+
+#inputSearch.hide {
+  width: 10%;
+  transition: width 1s;
+}
+
+#inputSearch {
+  width: 100%;
+  transition: width 1s;
+}
+
+.search-header.d-flex {
+  flex-direction: row-reverse;
+}
+
+.suggestions-wrapper {
+  position: absolute;
+  margin-top: 35px;
+}
+
+//Carousel
+.carousel-nav {
+  width: 10%;
+}
+//Pagos
+.pagos {
+  background-color: white;
+  border-radius: 10px;
+  .border-left.border-primary {
+    border-width: 5px !important;
+  }
+}
+
+//ratings
+.ratings{
+  font-weight: bold;
+}

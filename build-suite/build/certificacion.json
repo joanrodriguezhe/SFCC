@@ -1,0 +1,71 @@
+{
+  "dependencies": [
+    {
+      "repository": {
+        "url": "../",
+        "type": "file"
+      },
+      "source": {
+        "path": "cartridges"
+      },
+      "npm": {
+        "install": true,
+        "scripts": [
+          "compile:js",
+          "compile:scss",
+          "compile:fonts"
+        ]
+      },
+      "cartridges": [
+        "app_custom_storefront",
+        "app_storefront_base",
+        "modules"
+      ]
+    },
+    {
+      "repository": {
+        "url": "../"
+      },
+      "siteImport": {
+        "enabled": "true",
+        "sites":[
+          "Certification"
+        ],
+        "initPath": "sites/site_template",
+        "demoPath": "sites/site_demo"
+      }
+    }
+  ],
+
+  "environments": {
+    "default": {
+      "server": "zzrn-011.sandbox.us01.dx.commercecloud.salesforce.com",
+      "username": "jrodriguez@unitedvirtualities.com",
+      "password": "t8kdrXdL61E_BhQbheF5LlqVwH0oyGe20w==",
+      "client_id": "b820a2c3-4847-4570-918c-72297d529f60",
+      "client_secret": "t8kdrXdL61E_O/DVahj2Cwc2t7Lc+KIyfg=="
+    }
+  },
+  
+  "settings": {
+    "siteImport": {
+      "enabled": "true",
+      "filenames":{
+        "init":"site_import",
+        "meta":"site_metadata",
+        "content":"site_content"
+      }
+    },
+    "project": {
+      "name":"Certification",
+      "version": "new_site_v01"
+    },
+    "optimize": {
+      "postcss": false,
+      "browserify": false,
+      "js": false,
+      "css": false,
+      "concatenate": true
+    }
+  }
+}

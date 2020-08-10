@@ -1,0 +1,31 @@
+<isdecorate template="common/layout/page">
+    <iscomment>
+        In this part I should include JS scripts and css on assets but Nah..
+    </iscomment>
+
+
+    <h1>Log - example</h1>
+    <div class="container">
+        <p>
+
+            ${Resource.msg('main.response.exercise', 'logRender', null)}
+
+            <isprint value="${pdict.info}" encoding="htmlcontent" />
+
+            <isprint value="${pdict.hola}" encoding="htmlcontent" />
+        </p>
+    </div>
+
+    <h1>Content Slot - example</h1>
+    <div class="container">
+        <isslot id="slot-content-example" description="This content slot is practice for B2C Certtification"
+            context="global" />
+    </div>
+
+    <h1>Content Asset - example</h1>
+    <div class="container">
+        <a href="${URLUtils.url('Page-Show', 'cid', 'test-content-asset')}">CLICK!! Calling my first content
+            asset</a><br>
+    </div>
+
+</isdecorate>

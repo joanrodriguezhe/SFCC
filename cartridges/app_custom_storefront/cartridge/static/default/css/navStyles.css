@@ -1,0 +1,36 @@
+.logo {
+  width: 150px; }
+
+.logo-small {
+  width: 40px; }
+
+.site-search input {
+  border-radius: 25px; }
+
+#inputSearch.hide {
+  width: 10%;
+  transition: width 1s; }
+
+#inputSearch {
+  width: 100%;
+  transition: width 1s; }
+
+.search-header.d-flex {
+  -ms-flex-direction: row-reverse;
+      flex-direction: row-reverse; }
+
+.suggestions-wrapper {
+  position: absolute;
+  margin-top: 35px; }
+
+.carousel-nav {
+  width: 10%; }
+
+.pagos {
+  background-color: white;
+  border-radius: 10px; }
+  .pagos .border-left.border-primary {
+    border-width: 5px !important; }
+
+.ratings {
+  font-weight: bold; }
